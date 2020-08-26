@@ -4,7 +4,8 @@ import AddEntry from './components/AddEntry.js';
 import Dialog from './components/Dialog'
 import { v4 as uuidv4 } from 'uuid';
 import './styles/styles.scss'
-import 'drag-drop-touch'
+// import 'drag-drop-touch'
+import './scripts/dragdroptouch.js'
 
 const LOCAL_STORAGE_KEY = "swot.app.state";
 
