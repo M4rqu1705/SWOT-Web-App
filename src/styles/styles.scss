@@ -1,4 +1,4 @@
-@use "sass:color";
+// @use "sass:color";
 
 $bucket-margin: 0.5rem;
 $transition-time: 0.3s;
@@ -57,7 +57,12 @@ body {
     .Table__row {
         width: 100%;
         height: 100%;
-        margin: $bucket-margin;
+        margin: $bucket-margin !important;
+
+        @media only all and (max-width:850px) {
+            margin: $bucket-margin / 4 !important;
+        }
+
         // overflow: hidden;
 
 
@@ -70,6 +75,11 @@ body {
 
 .Bucket {
     margin: $bucket-margin;
+
+    @media only all and (max-width:850px) {
+        margin: $bucket-margin / 2 !important;
+    }
+
     overflow: hidden;
     height: inherit;
     width: 100%;
@@ -101,6 +111,11 @@ body {
         align-items: center;
         justify-content: flex-start !important;
 
+        @media only all and (max-width:850px) {
+            align-items: flex-start;
+            margin-left: 15%;
+        }
+
         &__entry {
             text-align: center;
             width: 75%;
@@ -108,6 +123,11 @@ body {
             border-radius: 5px;
             margin: 0.25rem;
             padding: 0.75rem;
+
+            @media only all and (max-width:850px) {
+                text-align: center;
+                width: 60%;
+            }
         }
     }
 
@@ -186,6 +206,11 @@ body {
     &__overlay {
         width: 80vw;
         height: 40vh;
+
+        @media only all and (orientation: landscape) and (max-width:850px) {
+            height: auto;
+        }
+
 
         padding: 1rem;
 
