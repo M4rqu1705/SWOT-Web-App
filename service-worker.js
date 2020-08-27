@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/SWOT-Web-App/precache-manifest.35656a3a184e0d9df240f7dc5f4a17fc.js"
+  "/SWOT-Web-App/precache-manifest.c239f3f5ae19c127ffe151847b92f421.js"
 );
 
 self.addEventListener('message', (event) => {

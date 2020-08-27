@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a719ff7bf460e141393a2d996b990e13",
+    "revision": "362e08e14092bf89613fff3403f12aa1",
     "url": "/SWOT-Web-App/index.html"
   },
   {
-    "revision": "7eb9837b633494f45854",
-    "url": "/SWOT-Web-App/static/css/main.93e73238.chunk.css"
+    "revision": "f2ace248d8aaa8e0a2f8",
+    "url": "/SWOT-Web-App/static/css/main.9dcdfa3d.chunk.css"
   },
   {
     "revision": "fc251c7a408db28e47b7",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SWOT-Web-App/static/js/2.e7873bbf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7eb9837b633494f45854",
+    "revision": "f2ace248d8aaa8e0a2f8",
     "url": "/SWOT-Web-App/static/js/main.cb4d84fb.chunk.js"
   },
   {
